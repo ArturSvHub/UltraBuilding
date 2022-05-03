@@ -1,0 +1,76 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    width: 90%;
+    justify-content: space-between;
+    display: flex;
+    padding-block: 5px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo__img{
+    margin: 10px 20px 10px 40px;
+    background-color: #fff;
+    min-width: 80%;
+    min-height: 80%;
+}
+.logo__desc{
+    span{
+        font-size: 14px;
+    }
+    p{
+        font-size: 40px;
+    }
+}
+.menu{
+    width: 40%;
+}
+.contacts{
+    margin: 2% 0 2% 0;
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    justify-content: stretch;
+    p{
+        text-align: end;
+        align-self: flex-end;
+        margin-right: 10px;
+    }
+    p:last-child{
+        text-align: start;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+}
+.presenter{
+    width: 100%;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-image: url(/src/img/bcpresentation.webp);
+    background-size: cover;
+    h2,span,p{
+        margin-block: 2%;
+        width: 40%;
+    }
+    h2{
+        font-size:xx-large;
+    }
+    span{
+        font-size:x-large;
+    }
+    p{
+        font-size: large;
+    }
+}

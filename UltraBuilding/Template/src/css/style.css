@@ -1,0 +1,168 @@
+body {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: #3f6567;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  padding-block: 5px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo__img {
+  margin: 10px 20px 10px 40px;
+  background-color: #fff;
+  min-width: 80%;
+  min-height: 80%;
+}
+
+.logo__desc span {
+  font-size: 14px;
+}
+.logo__desc p {
+  font-size: 40px;
+}
+
+.menu {
+  width: 40%;
+}
+
+.contacts {
+  margin: 2% 0 2% 0;
+  font-size: larger;
+  font-weight: 500;
+  display: flex;
+  justify-content: stretch;
+}
+.contacts p {
+  text-align: end;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+.contacts p:last-child {
+  text-align: start;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.presenter {
+  width: 100%;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-image: url(/src/img/bcpresentation.webp);
+  background-size: cover;
+}
+.presenter h2, .presenter span, .presenter p {
+  margin-block: 2%;
+  width: 40%;
+}
+.presenter h2 {
+  font-size: xx-large;
+}
+.presenter span {
+  font-size: x-large;
+}
+.presenter p {
+  font-size: large;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  margin: 4% 0 12% 0;
+  width: 60%;
+  display: grid;
+  gap: 4%;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.presentation {
+  margin-top: 20px;
+  align-self: center;
+  justify-self: center;
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.presentation img {
+  opacity: 0.7;
+  border: solid 3px black;
+  width: 100%;
+}
+.presentation img:hover {
+  opacity: 1;
+  border: none;
+}
+.presentation span {
+  padding: 5px 0 0 0;
+  font-size: larger;
+}
+footer {
+  padding: 1% 0;
+  width: 100%;
+  background-color: #132d2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__section {
+  margin: 0 2%;
+}
+
+.btn {
+  align-self: center;
+  text-align: center;
+  margin-top: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
